@@ -33,6 +33,9 @@ TARGET_OTA_ASSERT_DEVICE := tulip,tulip
 # Kernel
 TARGET_KERNEL_CONFIG := tulip_defconfig
 
+# IPA
+USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-02-05
 
